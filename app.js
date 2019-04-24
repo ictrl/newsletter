@@ -33,10 +33,10 @@ app.post('/', function (req, res) {
 
 
     var options = {
-        url: "https://us20.api.mailchimp.com/3.0/lists/67b370f995",
+        url: "https://us20.api.mailchimp.com/3.0/lists/LISTID",
         method: "POST",
         headers: {
-            "Authorization": "samrat1 bd02034c8faca927598531fe1701bb9b-us20"
+            "Authorization": "samrat1 API KEY"
         },
         body: jsonData
     };
